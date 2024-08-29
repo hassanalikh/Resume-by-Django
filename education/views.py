@@ -4,4 +4,5 @@ from django.shortcuts import render
 
 
 def education(request):
-    return render(request, 'education/skils.html')
+    context = {'skils': 'active'}
+    return render(request, 'education/skils.html', context)

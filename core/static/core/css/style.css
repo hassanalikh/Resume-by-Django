@@ -25,3 +25,23 @@ body {
 .ss-color {
   color: whitesmoke;
 }
+
+/* anchor tages style */
+a.nav-link {
+  color: whitesmoke;
+}
+
+a.nav-link:hover {
+  color: black;
+  background-color: #edb27f;
+}
+
+a.nav-link.active {
+  color: black;
+  background-color: #ec8225;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
