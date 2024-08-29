@@ -1,0 +1,27 @@
+/* Font family aded */
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+}
+.container-fluid {
+  min-height: 100%;
+}
+/*Contact button and hire */
+.button {
+  margin-top: 40px;
+}
+
+/* SRVICES STYLES */
+
+.i-color {
+  color: chartreuse;
+}
+.ss-color {
+  color: whitesmoke;
+}

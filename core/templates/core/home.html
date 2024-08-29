@@ -1,0 +1,48 @@
+{% extends 'core/base.html' %} {% load static %} {% block content %}
+<div class="mt-5">
+  <!-- image container -->
+  <div class="text-center">
+    <img
+      src="{% static 'core/images/pic.jpg' %}"
+      alt="profilePic"
+      class="img-thumbnail"
+      width="100px"
+      height="50px"
+    />
+  </div>
+  <!-- dicription container  -->
+  <div class="mt-5 text-white mx-5" style="text-align: justify">
+    <h1 class="text-weight-bold text-white mt-5 satisfy-regular">Hello,</h1>
+    <div class="px-5" style="line-height: 2rem">
+      <p style="text-indent: 100px">
+        I am <b class="text-warning"> Hassan Ali Khan</b> having 6 month
+        experiance of self-coding of <b class="text-warning"> DJANGO </b>. I am
+        student of
+        <a
+          href="https://www.bahria.edu.pk/bulc/"
+          target="_blank"
+          style="text-decoration: none"
+          >Behria university BULC.</a
+        >
+        My expertise in <b>React , Django, Javascript.</b>
+      </p>
+      <p>
+        I am a skilled developer with experience in both the MERN stack and
+        Django framework. My expertise lies in building dynamic, data-driven web
+        applications using MongoDB, Express.js, React, and Node.js, as well as
+        leveraging Django for robust, scalable backend solutions. I thrive on
+        creating seamless user experiences and efficient backend systems. With a
+        strong foundation in both
+        <b class="text-warning">front-end and back-end</b> technologies, I am
+        adept at tackling complex projects and delivering high-quality software
+        solutions.
+      </p>
+    </div>
+  </div>
+  <div class="text-center button">
+    <a href="" class="btn btn-outline-warning my-3 me-5">Hire Me</a>
+    <a href="" class="btn btn-outline-info my-3">Contact Me</a>
+  </div>
+</div>
+
+{% endblock content %}
